@@ -1,7 +1,6 @@
 # Recommender System
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jnooo-cloud/Recommender-system/main?labpath=2-Fortgeschrittene_Empfehlungssysteme%20new.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jnooo-cloud/Recommender-system/blob/main/2-Fortgeschrittene_Empfehlungssysteme%20new.ipynb)
 
 Dieses Repository reproduziert die Kursaufgabe "Recommender Systems" aus dem Udemy-Kurs "Python fuer Data Science, Machine Learning & Visualization".
 
@@ -13,7 +12,7 @@ Dieses Repository reproduziert die Kursaufgabe "Recommender Systems" aus dem Ude
 
 ## Ausfuehrung
 
-1. Klicke auf den Binder- oder Colab-Badge.
+1. Klicke auf den Binder-Badge.
 2. Oeffne das Notebook `2-Fortgeschrittene_Empfehlungssysteme new.ipynb`, falls es nicht direkt geoeffnet wird.
 3. Fuehre alle Zellen von oben nach unten aus.
 
