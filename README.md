@@ -1,4 +1,22 @@
-# recommender-systems
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jnooo-cloud/Recommender-system/HEAD)
+# Recommender System
 
-This notebook is an advanced walkthrough for building recommendation systems using Python. Recommendation systems generally require large datasets and a specific structure, which is why we haven’t created a separate full project around it. Instead, this detailed notebook walks you through everything step by step. We’ll be working with the MovieLens dataset, which is one of the most commonly used datasets for building and testing recommendation systems. It contains 100,000 movie ratings from 943 users across 1,682 films. As with most recommendation systems, the math behind it is rooted in linear algebra, which can be quite complex. The two main approaches used in recommendation systems are content-based filtering and collaborative filtering. In content-based filtering, recommendations are made based on the properties of the items themselves, while collaborative filtering bases recommendations on user preferences and behavior patterns. In this notebook, we’ll primarily focus on collaborative filtering, since it's generally more effective in real-world applications. We'll cover both memory-based collaborative filtering, which relies on calculating similarities between users or items (for example using cosine similarity), and model-based collaborative filtering, which involves matrix factorization – in our case using Singular Value Decomposition (SVD). The good thing about collaborative filtering is that it can automatically learn which features matter most, without us needing to define them manually. To follow along, you only need the u.data file from the lesson folder. From there, we’ll guide you through the process of building a basic but powerful recommendation system, explaining the core ideas along the way. This project is an assignment from the Udemy course: [Python für Data Science, Machine Learning & Visualization](https://www.udemy.com/course/python-data-science-machine-learning).
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jnooo-cloud/Recommender-system/main?labpath=2-Fortgeschrittene_Empfehlungssysteme%20new.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jnooo-cloud/Recommender-system/blob/main/2-Fortgeschrittene_Empfehlungssysteme%20new.ipynb)
+
+Dieses Repository reproduziert die Kursaufgabe "Recommender Systems" aus dem Udemy-Kurs "Python fuer Data Science, Machine Learning & Visualization".
+
+## Inhalt
+
+- `2-Fortgeschrittene_Empfehlungssysteme new.ipynb`: Jupyter-Notebook mit der Loesung.
+- `U.data` und `U.item`: Dateien aus dem MovieLens-Datensatz.
+- `requirements.txt`: Python-Abhaengigkeiten fuer Binder.
+
+## Ausfuehrung
+
+1. Klicke auf den Binder- oder Colab-Badge.
+2. Oeffne das Notebook `2-Fortgeschrittene_Empfehlungssysteme new.ipynb`, falls es nicht direkt geoeffnet wird.
+3. Fuehre alle Zellen von oben nach unten aus.
+
+## Erwartetes Ergebnis
+
+Das Notebook erstellt aus den MovieLens-Bewertungen eine User-Item-Matrix, berechnet Benutzer- und Item-Aehnlichkeiten und erzeugt darauf basierende Empfehlungsprognosen. Als reproduzierbares Ergebnis werden Vorhersagematrizen erstellt und die Qualitaet der Empfehlungen ueber den RMSE-Wert bewertet.
